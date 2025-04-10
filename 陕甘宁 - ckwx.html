@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>红色经济史学习与推广平台</title>
+    <link rel="stylesheet" href="plugins/bootstrap-3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/1.css">
+   <style>
+    #head {
+            position: relative;
+            width: 100%;
+            height: 250px;
+            background: url(img/beijing.png);
+        }    
+    .menus {
+        position: relative;
+        width: 15%;
+        min-height: 1000px;
+        font-size: 18px;
+        color: #000;
+        bottom: 0;
+        left: 0px;
+    }
+    .menus .header {
+        padding: 6px 1px;
+        cursor: pointer;
+    }
+    .menus .twoheader{
+        padding: 8px 1px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .menus .threeheader{
+        padding: 8px 10px;
+        cursor: pointer;
+        font-size: 13px;
+    }
+
+    .menus .content a {
+        display: block;
+        padding: 1px 1px;
+        border-bottom: 1px dotted black;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #main {
+            text-align: center;
+            position: absolute;
+            padding: 25px 35px;
+            background: #FFF;
+            border: 1px #b6b3ac solid;
+            border-top: #beb7ae 1px solid;
+            top: 250px;
+            left: calc(100% - 82.5%); 
+            width: calc(100% - 20%);
+            height: 1000px;
+        }
+        #main #jieshao {
+            position: relative;
+        }   
+        #main #jieshao h1 {
+            font-family: '微软雅黑';
+            font-size: 36px;
+            text-align: center;
+            padding-bottom: 16px;
+        }
+        #main #jieshao p {
+            line-height: 28px;
+            font-size: 14px;
+            padding: 1px 0px;
+        }
+        .right-aligned-text {
+            white-space: pre-wrap;
+            text-align: right;
+        }
+    .links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    font-size: 0px;
+    }
+    .links li {
+    float: left;
+    padding: 0 16px 0 0;
+    display: block;
+    }
+    #footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #49402f;
+    text-align: center;
+    color: #cec4ba;
+    padding: 13px 0px;
+    }
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-custom">
+    <div id="head"></div>
+        <div class="menus">
+            <div style="height:1000px;width:100%;overflow:auto;">
+                <div class="item">
+                    <div class="header" onclick="clickMe(this);"><a href="index.html">首页</a></div>
+                </div>
+        
+                <!-- 新结构开始 -->
+                <div class="item">
+                    <div class="header" onclick="clickMe(this);">一、陕甘宁革命根据地(1934-1949)</div>
+                    <div class="content hide">
+                        <!-- 前言 -->
+                        <div class="twoheader">
+                            <a href="qianyan.html">前言</a>
+                        </div>
+                        
+                        <!-- 统计 -->
+                        <div class="twoheader" onclick="clickMe(this);">统计</div>
+                        <div class="content hide">
+                            <!-- 行政区划 -->
+                            <div class="threeheader">
+                                <a href="1.1.html">1.1 行政区划</a>
+                            </div>
+                            
+                            <!-- 人口 -->
+                            <div class="threeheader">
+                                <a href="2.1.html">1.2 人口</a>
+                                <a href="2.2.html">1.2.1 陕甘宁边区各县区划人口统计表(1941年2月20日)</a>
+                                <a href="2.3.html">1.2.2 葭县城关区一、二、三乡阶级构成(1943年)</a>
+                            </div>
+                            
+                            <!-- 价格 -->
+                            <div class="threeheader">
+                                <a href="4.1.html">1.3 价格</a>
+                                <a href="4.1.html">1.3.1 延安市粮价与物价(1937-1943年)</a>
+                                <a href="4.2.html">1.3.2 延安市逐月分类别物价指数(1941-1942年)</a>
+                                <a href="4.3.html">1.3.3 延安市物价总指数表（1937-1945）</a>
+                                <a href="4.4.html">1.3.4 根据地历年米价统计（1941年-1947年）</a>
+                            </div>
+                            
+                            <!-- 人民生活 -->
+                            <div class="threeheader">
+                                <a href="5.1.html">1.4 人民生活</a>
+                                <a href="5.1.html">1.4.1 各分区每人存粮表（1947年）</a>
+                            </div>
+                            
+                            <!-- 财政 -->
+                            <div class="threeheader">
+                                <a href="6.1.html">1.5 财政</a>
+                                <a href="6.1.html">1.5.1 财政概算收支比较表</a>
+                                <a href="6.2.html">1.5.2 陕甘宁边区历年财政收支对照表</a>
+                                <a href="6.3.html">1.5.3 陕甘宁边区历年财政岁出分类统计表</a>
+                                <a href="6.4.html">1.5.4 陕甘宁边区历年财政岁入分类统计表</a>
+                                <a href="6.5.html">1.5.5 岁入分类统计表</a>
+                            </div>
+                            
+                            <!-- 税收 -->
+                            <div class="threeheader">
+                                <a href="7.1.html">1.6 税收</a>
+                                <a href="7.1.html">1.6.1 根据地全年税收报告表（1946年）</a>
+                                <a href="7.2.html">1.6.2 根据地各月税收总结表（1946年）</a>
+                                <a href="7.3.html">1.6.3 根据地全年税收报告表（1947年）</a>
+                                <a href="7.4.html">1.6.4 根据地各月税收总结表（1947年）</a>
+                            </div>
+                            
+                            <!-- 自然灾害 -->
+                            <div class="threeheader">
+                                <a href="#">1.7 自然灾害</a>
+                            </div>
+                            
+                            <!-- 对外经济贸易 -->
+                            <div class="threeheader">
+                                <a href="9.1.html">1.8 对外经济贸易</a>
+                                <a href="9.1.html">1.8.1 根据地各年进口货物统计表（1944年-1946年）</a>
+                                <a href="9.2.html">1.8.2 根据地各年重要土产出口统计（1944一1946年）</a>
+                                <a href="9.3.html">1.8.3 根据地主要物资出口统计（1944年-1946年）</a>
+                                <a href="9.4.html">1.8.4 全年入境货物统计表（1946年）</a>
+                            </div>
+                            
+                            <!-- 农业 -->
+                            <div class="threeheader">
+                                <a href="10.1.html">1.9 农业</a>
+                                <a href="10.1.html">1.9.1 陕甘宁边区农业统计（1936-1945年）</a>
+                                <a href="10.2.html">1.9.2 陕甘宁边区各分区农作物种类及种植面积比例（1943年）</a>
+                                <a href="10.3.html">1.9.3 陕甘宁边区各分区农作物种类及种植面积比例（1944年）</a>
+                            </div>
+                            
+                            <!-- 工业 -->
+                            <div class="threeheader">
+                                <a href="11.1.html">1.10 工业</a>
+                                <a href="11.1.html">1.10.1 民间纺织业发展统计(1942-1944年)</a>
+                            </div>
+                            
+                            <!-- 商业 -->
+                            <div class="threeheader">
+                                <a href="12.1.html">1.11 商业</a>
+                                <a href="12.1.html">1.11.1 延安市私营商户统计（1937-1944）</a>
+                            </div>
+                            
+                            <!-- 运输业 -->
+                            <div class="threeheader">
+                                <a href="#">1.12 运输业</a>
+                            </div>
+                            
+                            <!-- 合作社 -->
+                            <div class="threeheader">
+                                <a href="14.1.html">1.13 合作社</a>
+                                <!-- 合作社子项过多，这里只保留几个示例 -->
+                                <a href="14.1.html">1.13.1 边区合作社发展概况统计(1937年—1944年3月)</a>
+                                <a href="14.2.html">1.13.2 边区各分区合作社发展情况统计(1944年)</a>
+                                <!-- 其他合作社链接... -->
+                            </div>
+                            
+                            <!-- 金融业 -->
+                            <div class="threeheader">
+                                <a href="15.1.html">1.14 金融业</a>
+                                <a href="15.1.html">1.14.1 边币发行额统计表（1940年12月-1944年2月）</a>
+                            </div>
+                            
+                            <!-- 公共管理 -->
+                            <div class="threeheader">
+                                <a href="16.1.html">1.15 公共管理</a>
+                                <a href="16.1.html">1.15.1 根据地违禁走私统计表（1945年1月-10月）</a>
+                            </div>
+                            
+                            <!-- 其他 -->
+                            <div class="threeheader">
+                                <a href="17.1.html">1.16 其他</a>
+                                <a href="17.1.html">1.16.1 陕甘宁边区气候统计（1940-1945年）</a>
+                            </div>
+                        </div>
+                        
+                        <!-- 调查 -->
+                        <div class="twoheader" onclick="clickMe(this);">调查</div>
+                        <div class="content hide">
+                            <div class="threeheader">
+                                <a href="diaocha1.html">2.1 调查一</a>
+                                <a href="diaocha2.html">2.2 调查二</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header" onclick="clickMe(this);"><a href="陕甘宁 - ckwx.html">参考文献</a></div>
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="header" onclick="clickMe(this);">二、晋绥革命根据地</div>
+                    <div class="content hide">
+                        <!-- 暂时留空 -->
+                        <div class="twoheader">
+                            <a href="#">内容建设中...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 新结构结束 -->
+        
+                
+            </div>
+        </div>
+    <div id="main">
+            <div id="jieshao">
+                <h1>参考文献</h1>
+                <style>
+                    /* 原始菜单样式保留 */
+                    .menus {
+                        position: absolute;  /* 改为绝对定位 */
+                        width: 18%;         /* 增加菜单宽度比例 */
+                        left: 0;
+                        top: 250px;
+                        bottom: 0;
+                        overflow-y: auto;   /* 添加菜单滚动 */
+                    }
+                    
+                    #main {
+                        position: absolute;
+                        left: 19%;          /* 与菜单保持1%间距 */
+                        right: 2%;          /* 右侧留空隙 */
+                        top: 250px;
+                        bottom: 70px;       /* 给页脚留空间 */
+                        padding: 25px 35px;
+                        background: #FFF;
+                        border: 1px solid #b6b3ac;
+                        overflow-y: auto;   /* 确保内容滚动 */
+                    }
+                    
+                    /* 参考文献段落的终极解决方案 */
+                    #jieshao p {
+                        text-indent: -3em;  /* 负缩进解决编号缩进 */
+                        margin-left: 4.5em; /* 4.5em=3em缩进补偿+1.5em标准缩进 */
+                        margin-right: 1em;
+                        line-height: 1.8;
+                        font-size: 14px;
+                        text-align: justify;/* 两端对齐更美观 */
+                        hyphens: auto;      /* 自动断词 */
+                    }
+                    
+                    #footer {
+                        position: fixed;    /* 固定页脚 */
+                        bottom: 0;
+                        height: 60px;       /* 明确高度 */
+                        /* 其他样式保持不变 */
+                    }
+                    </style>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】《红色档案——延安时期文献档案汇编》编委会：《八路军军政杂志》（影印本），第1至第4卷，西安，陕西人民出版社2013年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】《红色档案——延安时期文献档案汇编》编委会：《共产党人》（影印本），第1至第2卷，西安，陕西人民出版社2013年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】《红色档案——延安时期文献档案汇编》编委会：《解放》（影印本），第1至第7卷，西安，陕西人民出版社2013年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【4】《红色档案——延安时期文献档案汇编》编委会：《陕甘宁边区参议会史料汇编》（影印本），上卷、下卷，西安，陕西人民出版社2013年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【5】《红色档案——延安时期文献档案汇编》编委会：《陕甘宁边区政府文件选编》（影印本），第1至第14卷，西安，陕西人民出版社2013年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【6】 财政部税务总局：《中国革命根据地工商税收史长编——陕甘宁边区部分》，北京，中国财政经济出版社1989年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【7】 甘肃省社会科学院历史研究室：《陕甘宁革命根据地史料选辑》，第1至第5辑，兰州，甘肃人民出版社1981、1985年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【8】 黄正林：《陕甘宁边区社会经济史  1937-1945》，北京：人民出版社2006年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【9】 李实：《陕甘宁革命根据地货币史》，北京，中国金融出版社2003年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【10】 商业部商业经济研究所：《革命根据地商业回忆录》，北京，中国商业出版社1984年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【11】陕甘宁边区财政经济史编写组：《抗日战争时期陕甘宁边区财政经济史料摘编》，第1至第9编，西安，陕西人民出版社1981年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【12】陕甘宁边区金融史编辑委员会：《陕甘宁边区金融史》，北京，中国金融出版社1992年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【13】陕甘宁革命根据地工商税收史编写组：《陕甘宁革命根据地工商税收史料选编》，第1至第10册，西安，陕西人民出版社1985—1988年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【14】陕西省工商行政管理局：《陕甘宁边区的工商行政管理》，北京，工商出版社1986年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【15】王保存、杨伟宏：《陕甘宁根据地土地革命时期财政经济史料》，西安，西北大学出版社2018年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【16】 王金昌、张晓东：《陕甘宁边区经济典藏》，北京，人民出版社2017年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【17】 魏协武：《边区银行风云录》，西安，陕西人民出版社1996年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【18】 魏协武：《黄亚光文稿和日记摘编》，西安，陕西人民出版社1999年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【19】 魏协武：《陕甘宁边区金融报道史料选》，西安，陕西人民出版社1992年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【20】 魏协武：《陕甘宁革命根据地银行编年纪事》，北京，中国金融出版社1993年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【21】魏协武：《朱理治金融论稿》，北京，中国财政经济出版社1993年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【22】星光、张杨：《解放战争时期陕甘宁边区财政经济史资料选辑》，上册、下册，西安，三秦出版社1989年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【23】星光、张杨：《抗日战争时期陕甘宁边区财政经济史稿》，西安，西北大学出版社1988年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【24】许树信：《中国革命根据地货币史纲》，北京，中国金融出版社2008年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【25】杨伟宏、王保存：《解放战争时期陕甘宁边区金融史料摘编》，上册、下册，西安，西北大学出版社2018年版。&nbsp;
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【26】姚文琦、姬乃军：《西北革命根据地史》，西安：陕西人民出版社2014年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【27】姚文琦：《西北革命根据地回忆录精编》，第1至第5卷，西安：陕西人民出版社2014年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【28】姚文琦：《西北革命根据地文献资料精编》，第1至第2卷，西安：陕西人民出版社2014年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【29】张俊南、张宪臣、牛玉民：《陕甘宁边区大事记》，西安，三秦出版社1986年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【30】中国财政科学院：《抗日战争时期陕甘宁边区财政经济史料摘编》（重印本），第1至第9编，武汉，长江文艺出版社2016年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【31】中国人民银行：《<红色中华>金融史料摘编》，北京，中国金融出版社2016年版。&nbsp;
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【32】中国人民银行：《<新中华报>金融史料摘编》，北京，中国金融出版社2018年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【33】中央档案馆、陕西省档案馆编：《陕西革命历史文件汇集》，甲种第1至第18卷，西安，内部资料1991年版。&nbsp;
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【34】中央档案馆：《中共中央文件选集（1921-1949）》，第1至14册，北京，中共中央党校出版社1983、1989—1991年版。&nbsp;
+                <p>
+            </div>
+    </div>
+        
+</nav>
+
+<ul class="links">
+    <li style="padding:0;"><img src="img/links1.png" width="350" height="75"></li>
+    <li style="padding:0;"><a href="https://dangan.shu.edu.cn/" target="_blank"><img src="img/links2.png" width="350" height="75"></a></li>
+    <li style="padding:0;"><a href="http://www.ccerdata.cn/" target="_blank"><img src="img/links3.png" width="350" height="75"></a></li>
+</ul>
+<div id="footer">
+    <p>&nbsp; &nbsp;<span style="color: rgb(255, 255, 255); font-family: 微软雅黑, 黑体, sans-serif; font-size: 12px; text-align: center;">版权所有 ©</span><a style="padding: 0px; margin: 0px; font-family: 微软雅黑, 黑体, sans-serif; text-decoration-line: none; color: rgb(255, 255, 255); font-size: 12px; text-align: center; white-space: normal;">&nbsp;红色经济史研究中心</a><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, 黑体, sans-serif; font-size: 12px; text-align: center;"></a><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, 黑体, sans-serif; font-size: 12px; text-align: center;">&nbsp;&nbsp;</span><span style="color: rgb(255, 255, 255); font-family: 微软雅黑, 黑体, sans-serif; font-size: 12px; text-align: center;">&nbsp;&nbsp;地址：上海市宝山区上大路99号&nbsp;&nbsp; &nbsp;邮编：200444 &nbsp;&nbsp;</span></p>
+</div>
+
+<script src="js/jquery-3.7.1.min/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+    function clickMe(self) {
+        $(self).parent().siblings().find(".content").addClass("hide");
+        var hasHide = $(self).next().hasClass("hide");
+        if (hasHide) {
+            $(self).next().removeClass("hide");
+        } else {
+            $(self).next().addClass("hide");
+        }
+    }
+</script>
+
+</body>
+</html>
