@@ -76,7 +76,21 @@
             justify-content: center;
             align-items: center;
         }
-
+        
+        /* 图片设置 */
+        .scaled-image {
+            /* 基础放大比例 */
+            transform: scale(1.23); /* 1.23倍直接放大 */
+            /* 尺寸控制 */
+            max-width: 90%;  /* 防止过度放大 */
+            max-height: 90%;
+            /* 保持比例 */
+            object-fit: contain;
+            /* 视觉优化 */
+            image-rendering: -webkit-optimize-contrast;
+            filter: contrast(1.05);
+        }
+        
         .main-image {
             /* 优化图片显示 */
             max-width: 95%;
@@ -314,7 +328,7 @@
         </div>
         
         <div id="main">
-            <img src="img/beijing_1.png" class="main-image" alt="陕甘宁革命根据地历史图片">    
+            <img src="img/beijing_1.png" class="scaled-image" alt="陕甘宁革命根据地历史图片">    
         </div>
     </nav>
     
