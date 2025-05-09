@@ -71,6 +71,18 @@
             width: calc(100% - 20%);
             height: 1000px;
             overflow: auto;
+            /* 新增Flex布局 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-image {
+            /* 优化图片显示 */
+            max-width: 95%;
+            max-height: 95%;
+            object-fit: contain;
+            /* 移除原固定尺寸设置 */
         }
         
         #main #jieshao {
@@ -302,7 +314,7 @@
         </div>
         
         <div id="main">
-            <img src="img/beijing_1.png" class="main-image" alt="陕甘宁革命根据地历史图片" width = "3000" height="1000">    
+            <img src="img/beijing_1.png" class="main-image" alt="陕甘宁革命根据地历史图片">    
         </div>
     </nav>
     
